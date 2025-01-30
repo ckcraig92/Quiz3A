@@ -17,7 +17,7 @@ namespace Quiz3A
             int sum = 0; //variable to hold sum value
             Console.WriteLine("Input number"); //ask user to input a number
             number = Convert.ToInt32(Console.ReadLine()); //convert to integer 
-            for (int i = 1; i < number; i += 2) //loop to run through all odd numbers
+            for (int i = 1; i < number; i += 2) //loop to run through all odd numbers (start w/ 1 & increase by 2)
             {
                 Console.WriteLine(i); //list numbers
 
